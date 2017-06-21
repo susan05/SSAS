@@ -6,6 +6,32 @@
     <Name>AnalysisServicesProject.database</Name>
     <FullPath>AnalysisServicesProject.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Analysis Services.cube</Name>
+      <FullPath>Analysis Services.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Analysis Services.partitions</Name>
+          <FullPath>Analysis Services.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Adventure Works DW2012.ds</Name>
@@ -14,10 +40,16 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Adventure Works DSV.dsv</Name>
-      <FullPath>Adventure Works DSV.dsv</FullPath>
+      <Name>Adventure Works DW2012.dsv</Name>
+      <FullPath>Adventure Works DW2012.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Role.role</Name>
+      <FullPath>Role.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>

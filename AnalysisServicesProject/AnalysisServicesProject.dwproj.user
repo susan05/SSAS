@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>.\STUDENT</TargetServer>
         <TargetDatabase>AnalysisServicesProject</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

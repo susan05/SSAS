@@ -6,8 +6,9 @@
   <ConnectionString>Provider=SQLNCLI11.1;Data Source=D120186\STUDENT;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2012</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
-    <ImpersonationMode>ImpersonateCurrentUser</ImpersonationMode>
-    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+    <Account>suzana.bogojevic</Account>
+    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <Timeout>PT0S</Timeout>
 </DataSource>
