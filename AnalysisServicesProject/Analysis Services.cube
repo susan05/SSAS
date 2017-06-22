@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16725" scrolltop="8968" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23945" y="15743" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16725" scrolltop="8968" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="28549" y="15743" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -231,9 +231,6 @@
         <Attribute dwd:design-time-name="1981a21e-b334-4ec1-9ad8-c17085fe98e5">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0f93218c-d971-4976-a36a-841c945b97e2">
-          <AttributeID>Full Date Alternate Key</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="be6e25e0-705d-46e6-89b9-b345955da11f">
           <AttributeID>English Month Name</AttributeID>
         </Attribute>
@@ -247,6 +244,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="934e50bf-c115-424d-918e-29a2236b8e7b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="94d29467-5152-47fe-88aa-0406ba6fdb82">
       <ID>Customer</ID>
@@ -314,6 +316,11 @@
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6d5bd3a1-4490-4b85-aa63-e26544a2a221">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="35db5dd0-039a-402f-8b52-6bb0fc18178d">
       <ID>Due Date</ID>
@@ -322,9 +329,6 @@
       <Attributes>
         <Attribute dwd:design-time-name="085a7b19-ab0a-4fea-9501-05410a4b4477">
           <AttributeID>Date Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="bc79fd1f-8824-4fa4-8521-d677f75d760e">
-          <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="3a6a4cc6-5398-4c07-9a38-1e2a7fac04d5">
           <AttributeID>English Month Name</AttributeID>
@@ -339,6 +343,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="ffed2888-cdd9-46d2-a8bc-5a166cf0ac3a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="05c5b4f3-c174-4eb7-b2f8-0b65acb80b05">
       <ID>Ship Date</ID>
@@ -347,9 +356,6 @@
       <Attributes>
         <Attribute dwd:design-time-name="9e817161-29bd-4eb9-9300-02b3911fad97">
           <AttributeID>Date Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="d51a33cc-db25-4423-9a24-c352e52e4003">
-          <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="daec39c3-17ac-4502-b83b-5113421d85df">
           <AttributeID>English Month Name</AttributeID>
@@ -364,6 +370,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a4b4e271-2fca-4e29-ae64-9840944d3e02">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="9c1c7f1f-00ed-46d1-a777-095de5e757ff">
       <ID>Product</ID>
@@ -425,6 +436,11 @@
           <AttributeID>Status</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a437ea46-40b5-422c-9e58-2a7c7bd4afff">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
