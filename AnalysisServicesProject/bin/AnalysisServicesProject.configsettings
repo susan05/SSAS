@@ -34,6 +34,14 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Internet Sales 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Internet Sales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
